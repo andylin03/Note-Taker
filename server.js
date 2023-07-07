@@ -5,12 +5,12 @@ const fs = require("fs");
 
 // Sets up the express app
 var app = express();
-var PORT = process.env.PORT || 8080
+var PORT = process.env.PORT || 3001
 
 // Sets up the express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use("/public/assets", express.static(__dirname + "/public/assets"));
+app.use("/assets", express.static(__dirname + "/assets"));
 
 
 require("./routes/html-routes")(app);
