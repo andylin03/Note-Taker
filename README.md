@@ -35,8 +35,12 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 # Deployed Application 
-
+http://localhost:3001/notes
 # Video WalkThrough
+
+
+https://github.com/andylin03/Note-Taker/assets/126199540/d3c21bc0-9963-4db5-9b61-71316c0b986b
+
 
 # Installation Process
 1. Clone the Repository from GitHub
